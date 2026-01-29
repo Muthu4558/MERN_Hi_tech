@@ -14,8 +14,10 @@ import a3 from "../assets/images/acp/a3.jpeg"
 import p8 from "../assets/images/pvc/p8.jpeg"
 import f5 from "../assets/images/false-ceiling/f5.jpeg"
 import af4 from "../assets/images/aluminum/af4.jpeg"
+import Logo from "../assets/hitech-logo.png"
 
 const slides = [
+  { img: Logo, label: "HiTech Enterprises" },
   { img: mn2, label: "Mosquito Nets" },
   { img: s3, label: "Ceiling Cloth Hangers" },
   { img: r3, label: "Wall Mounted Shoe Rack" },

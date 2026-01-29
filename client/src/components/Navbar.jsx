@@ -14,7 +14,7 @@ import {
 import { GiHanger } from "react-icons/gi"
 import { MdKeyboardArrowDown } from "react-icons/md"
 import { HiMenuAlt3 } from "react-icons/hi"
-import Logo from "../assets/hi-tech-logo-nav.png"
+import Logo from "../assets/hitech-logo-nav.png"
 import ServiceLink from "./ServiceLink"
 
 const MobileService = ({ to, icon, children }) => (
@@ -67,7 +67,7 @@ const Navbar = () => {
 
                 {/* Logo */}
                 <Link to="/" className="flex items-center gap-2">
-                    <img src={Logo} alt="Logo" className="h-16" />
+                    <img src={Logo} alt="Logo" className="md:h-20 h-16" />
                 </Link>
 
                 {/* Desktop Menu */}
