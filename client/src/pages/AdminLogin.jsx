@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { Lock } from "lucide-react";
+import { Lock, Eye, EyeOff } from "lucide-react";
+import Logo from "../assets/hitech-logo-footer.jpeg"
 
 const API_BASE = `${import.meta.env.VITE_APP_BASE_URL}`;
 
@@ -9,6 +10,7 @@ const AdminLogin = () => {
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
 
   const submitHandler = async (e) => {
     e.preventDefault();
@@ -34,9 +36,9 @@ const AdminLogin = () => {
     <div className="min-h-screen bg-[#F6F3ED] flex items-center justify-center px-4">
       <div className="bg-white w-full max-w-md rounded-2xl shadow-lg p-8">
         {/* Icon */}
-        <div className="flex justify-center mb-6">
-          <div className="bg-[#1F2F45] text-white p-4 rounded-full">
-            <Lock size={28} />
+        <div className="flex justify-center mb-4">
+          <div className="p-4">
+            <img width={160} className="rounded-xl" src={Logo} alt="logo" />
           </div>
         </div>
 
@@ -75,20 +77,31 @@ const AdminLogin = () => {
             <label className="block text-sm text-[#1F2F45] mb-1">
               Password
             </label>
-            <input
-              type="password"
-              placeholder="••••••••"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              required
-              className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#C9A24D] outline-none"
-            />
+
+            <div className="relative">
+              <input
+                type={showPassword ? "text" : "password"}
+                placeholder="••••••••"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                required
+                className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#C9A24D] outline-none pr-12"
+              />
+
+              <button
+                type="button"
+                onClick={() => setShowPassword(!showPassword)}
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 hover:text-[#1F2F45] cursor-pointer"
+              >
+                {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
+              </button>
+            </div>
           </div>
 
           <button
             type="submit"
             disabled={loading}
-            className="w-full bg-[#1F2F45] text-white py-3 rounded-lg font-medium hover:opacity-90 transition disabled:opacity-50"
+            className="w-full bg-[#1F2F45] text-white py-3 rounded-lg font-medium hover:opacity-90 transition disabled:opacity-50 cursor-pointer"
           >
             {loading ? "Logging in..." : "Login"}
           </button>
