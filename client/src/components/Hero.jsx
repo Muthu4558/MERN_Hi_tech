@@ -14,7 +14,7 @@ import a3 from "../assets/images/acp/a3.jpeg"
 import p8 from "../assets/images/pvc/p8.jpeg"
 import f5 from "../assets/images/false-ceiling/f5.jpeg"
 import af4 from "../assets/images/aluminum/af4.jpeg"
-import Logo from "../assets/hitech-logo.png"
+import Logo from "../assets/hitech-logo-footer.jpeg"
 
 const slides = [
   { img: Logo, label: "HiTech Enterprises" },

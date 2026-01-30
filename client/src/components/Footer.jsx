@@ -8,7 +8,7 @@ import {
   FaXTwitter,
 } from "react-icons/fa6"
 import { MdCall } from "react-icons/md"
-import FooterLogo from "../assets/hitech-logo-footer.png"
+import FooterLogo from "../assets/hitech-logo-footer.jpeg"
 
 const Footer = () => {
   const year = new Date().getFullYear()
