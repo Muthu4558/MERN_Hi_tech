@@ -76,6 +76,12 @@ const Footer = () => {
                   </a>
                 </li>
 
+                <li className="flex items-center justify-center sm:justify-start gap-2 mx-6">
+                  <a href="tel:+919363587740" className="hover:text-[#C9A24D] transition">
+                    +91 93635 87740
+                  </a>
+                </li>
+
                 <li className="flex items-center justify-center sm:justify-start gap-3">
                   <FaEnvelope className="text-[#C9A24D]" />
                   <a href="mailto:mailtohitech15@gmail.com" className="hover:text-[#C9A24D] transition">

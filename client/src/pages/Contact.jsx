@@ -102,12 +102,17 @@ const Contact = () => {
 
           {/* Map */}
           <div className="rounded-3xl overflow-hidden shadow-lg mb-20">
-            <iframe
+            {/* <iframe
               src="https://www.google.com/maps?q=Chennai,+India&output=embed"
               className="w-full h-[420px]"
               loading="lazy"
               title="Google Map"
-            />
+            /> */}
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3517.210554464375!2d80.27155807507793!3d13.058306187265083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDAzJzI5LjkiTiA4MMKwMTYnMjYuOSJF!5e1!3m2!1sen!2sin!4v1769788716083!5m2!1sen!2sin" 
+            className="w-full h-[420px]"
+            loading="lazy"
+            title="Google Map"
+             />
           </div>
 
           {/* Form */}
