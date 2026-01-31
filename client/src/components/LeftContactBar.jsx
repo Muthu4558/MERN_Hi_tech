@@ -6,9 +6,9 @@ const LeftContactBar = () => {
     <div className="fixed left-0 top-100 z-40 flex flex-col gap-4">
 
       <Item
-        href="tel:+919047122225"
+        href="tel:+916374335075"
         bg="bg-[#1F2F45]"
-        text="Call +91 90471 22225"
+        text="Call +91 63743 35075"
         icon={<MdCall size={20} />}
       />
 

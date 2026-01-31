@@ -5,7 +5,8 @@ import {
   FaLocationDot,
   FaInstagram,
   FaWhatsapp,
-  FaXTwitter,
+  // FaXTwitter,
+  FaFacebook,
 } from "react-icons/fa6"
 import { MdCall } from "react-icons/md"
 import FooterLogo from "../assets/hitech-logo-footer.jpeg"
@@ -117,8 +118,9 @@ const Footer = () => {
               {/* Social */}
               <div className="flex gap-4">
                 <SocialIcon href="#" icon={<FaInstagram />} />
+                <SocialIcon href="#" icon={<FaFacebook />} />
                 <SocialIcon href="https://wa.me/916374335075" icon={<FaWhatsapp />} />
-                <SocialIcon href="#" icon={<FaXTwitter />} />
+                {/* <SocialIcon href="#" icon={<FaXTwitter />} /> */}
               </div>
             </div>
 
