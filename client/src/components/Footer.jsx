@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import {
-//   FaPhoneAlt,
+  //   FaPhoneAlt,
   FaEnvelope,
   FaLocationDot,
   FaInstagram,
@@ -89,11 +89,14 @@ const Footer = () => {
                   </a>
                 </li>
 
-                <li className="flex items-center justify-center sm:justify-start gap-3">
-                  <FaLocationDot className="text-[#C9A24D]" />
-                  <span>Chennai, Tamil Nadu</span>
+                <li className="flex items-start justify-center sm:justify-start gap-3.5 text-sm leading-relaxed text-center sm:text-left">
+                  <FaLocationDot className="text-[#C9A24D] mt-0.5 shrink-0" />
+                  <span>
+                    No.251, Shop No-2, Triplicane High Road, <br />
+                    Triplicane, Chennai – 600005, <br />
+                    Tamil Nadu.
+                  </span>
                 </li>
-
               </ul>
             </div>
 

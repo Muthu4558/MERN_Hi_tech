@@ -85,7 +85,7 @@ const Contact = () => {
               <InfoItem
                 icon={<FaMapMarkerAlt />}
                 title="Our Address"
-                text="Chennai, Tamil Nadu"
+                text="No.251, Shop No-2, Triplicane Highroad, Triplicane, Chennai - 600005 Tamil Nadu."
               />
               <InfoItem
                 icon={<FaPhoneAlt />}

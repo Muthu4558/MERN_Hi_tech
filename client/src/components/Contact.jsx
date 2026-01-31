@@ -99,7 +99,7 @@ const Contact = () => {
                             </div>
                             <div>
                                 <p className="text-xs uppercase tracking-wide text-[#2B2B2B]/60">Location</p>
-                                <p className="font-semibold text-[#1F2F45]">Chennai, Tamil Nadu</p>
+                                <p className="font-semibold text-[#1F2F45]">No.251, Shop No-2, Triplicane Highroad, Triplicane, <br /> Chennai - 600005, Tamil Nadu</p>
                             </div>
                         </div>
 

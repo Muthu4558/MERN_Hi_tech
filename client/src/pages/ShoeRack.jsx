@@ -175,7 +175,7 @@ const ShoeRack = () => {
 
                     {/* Feature Strip */}
                     <div className="relative rounded-[32px] bg-[#1F2F45] p-10 sm:p-14 mb-20 text-[#F6F3ED]">
-                        <div className="max-w-2xl">
+                        <div className="">
 
                             <span className="text-sm uppercase tracking-wider text-[#C9A24D] font-semibold">
                                 Our Services
@@ -185,11 +185,41 @@ const ShoeRack = () => {
                                 Wall Mounted Shoe Rack
                             </h1>
 
-                            <p className="text-[#F6F3ED]/85 text-lg leading-relaxed">
-                                Smartly crafted wall-mounted shoe racks that save floor space,
-                                keep footwear organized, and blend seamlessly into everyday living
-                                with neat, modern installation.
-                            </p>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 text-[#F6F3ED]/85 text-base sm:text-lg leading-relaxed">
+
+                                {/* Left Column */}
+                                <div className="space-y-4">
+                                    <p>
+                                        Are You Tired Of Dealing With The Constant Clutter Of Shoes In 
+                                        Your Living Space? Do You Find Yourself Struggling To Locate The 
+                                        Right Pair When You Need It The Most? Look No Further! We Introduces 
+                                        The Perfect Solution To Transform Your Shoe Storage Experience.
+                                    </p>
+
+                                    <p>
+                                        When it comes to choosing the best storage solutions, wall 
+                                        mounted metal powder-coated shoe racks have really taken the 
+                                        spotlight. They’re not just strong and durable; they also boast a 
+                                        sleek finish that resists rust and wear.
+                                    </p>
+                                </div>
+
+                                {/* Right Column */}
+                                <div className="space-y-4">
+                                    <p>
+                                        Our Premium Metal Shoe Racks Are Designed To Enhance The 
+                                        Organization Of Your Footwear Collection. Say Goodbye To The 
+                                        Chaos And Welcome A Neat And Orderly Living Space. Explore Our 
+                                        Range Now To Discover The Ideal Solution For Stylish And Efficient 
+                                        Shoe Storage.
+                                    </p>
+
+                                    {/* <p>
+                                        Wall-mounted, powder-coated metal shoe racks are strong, durable, and built to last.
+                                        Their sleek finish resists rust and wear while adding a modern touch to your home.
+                                    </p> */}
+                                </div>
+                            </div>
 
                             <div className="mt-8">
                                 <h4 className="text-[#C9A24D] text-sm font-semibold mb-4 uppercase tracking-wide">
