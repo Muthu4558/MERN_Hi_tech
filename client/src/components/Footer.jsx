@@ -59,9 +59,12 @@ const Footer = () => {
                 <li><Link to="/mosquito-nets" className="hover:text-[#C9A24D] transition">Mosquito Nets</Link></li>
                 <li><Link to="/ceiling-cloth" className="hover:text-[#C9A24D] transition">Ceiling Cloth Hangers</Link></li>
                 <li><Link to="/shoe-rack" className="hover:text-[#C9A24D] transition">Wall Mounted Shoe Racks</Link></li>
-                <li><Link to="/upvc" className="hover:text-[#C9A24D] transition">Windows & Doors</Link></li>
+                <li><Link to="/toughened-glass" className="hover:text-[#C9A24D] transition">Toughened Glass Doors</Link></li>
+                <li><Link to="/upvc" className="hover:text-[#C9A24D] transition">UPVC Windows & Doors</Link></li>
+                <li><Link to="/acp" className="hover:text-[#C9A24D] transition">ACP Cladding Works</Link></li>
+                <li><Link to="/pvc" className="hover:text-[#C9A24D] transition">PVC Loft Cupboards</Link></li>
+                <li><Link to="/false-ceiling" className="hover:text-[#C9A24D] transition">False Ceiling Works</Link></li>
                 <li><Link to="/aluminum" className="hover:text-[#C9A24D] transition">Fabrication Works</Link></li>
-                <li><Link to="/pvc" className="hover:text-[#C9A24D] transition">PVC Interiors</Link></li>
               </ul>
             </div>
 
